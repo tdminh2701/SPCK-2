@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cities's weather</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div>
+        <a href="../index.html">Home</a>
+    </div>
+    <div id="root">
+        <div class="container">
+            <div class="main-selection">
+                <div class="search-bar">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" placeholder="Tim kiem thanh pho" name="search-city" id="search-input">
+                </div>
+                <div class="info-wrapper">
+                    <p class="city-name">_</p>
+                    <p class="weather-state">_</p>
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="weather-icon">
+                    <p class="temperature">_</p>
+                </div>
+            </div>
+
+            <div class="additional-section">
+                <div class="row">
+                    <div class="item">
+                        <div class="label">Mat troi moc</div>
+                        <div class="value-sunrise">_</div>
+                    </div>
+
+                    <div class="item">
+                        <div class="label">Mat troi lan</div>
+                        <div class="value-sunset">_</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="item">
+                        <div class="label">do am</div>
+                        <div class="value"><span class="humidity"></span>%</div>
+                    </div>
+                    <div class="item">
+                        <div class="label">Gio</div>
+                        <div class="value"><span class="wind-speed">_</span>km/h</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+
+</html>
