@@ -34,3 +34,8 @@ searchInput.addEventListener("change",(event) => {
         windSpeed.innerHTML = data.wind.speed
     }) 
 } )
+function ReturnToHome(){
+    location.replace("../../index.html")
+}
+const hello = document.getElementById("hello")
+hello.innerHTML =   localStorage.getItem("Username") 

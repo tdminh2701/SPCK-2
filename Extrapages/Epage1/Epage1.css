@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Roboto:wght@900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ; 
+} 
+
+.header{
+    background-color:rgb(107, 161, 26);
+    color: rgb(255, 255, 255);
+    padding: 0 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height:11vh;
+  z-index: 3;
+  position: fixed;
+  border-bottom: 2px solid black ;
+}
+.Logo > img{
+    height: 7vh;
+    width: 3vw;
+}
+.Logo{
+    font-size: x-small;
+    align-items: center;
+    cursor: pointer;
+}
+.rightSide{
+    width: 70vw;
+    display: flex;
+    justify-content: end;
+    padding-top: 30px ;
+}
+.Q1{
+    text-align:center ;
+    height: 11vh;
+    position: absolute;
+    left: 40%;
+    padding-top: 10px;
+    font-family: 'Mukta', sans-serif;
+    font-size: large;
+}
+#home{
+    margin-right: 25px;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: large;
+}
+#hello::before{
+    content: "Hello,"
+}
+#hello{
+        font-size: x-large;
+}
+.hello{
+    padding-top: 25px ;   
+}
+a{  
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.footer{
+    background-color: rgb(40, 2, 40);
+    height: 30vh;
+    width: 100%;
+}
+.copyright{
+    padding-top: 25vh ;
+    font-family: 'Mukta', sans-serif;
+    opacity: 0.5;
+    color: white;
+    text-align: center;
+}
+
+
+
+.globalwarming{
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    padding-left: 7vw;
+    font-family: 'Mukta', sans-serif;
+}
+.gwInfo{
+    font-weight: 600;
+    font-size: larger;
+    width: 45vw;
+}
+

@@ -3,12 +3,12 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing:border-box ;
-    
-}   
+    box-sizing:border-box ;   
+} 
+
 .header{
+    background-color:rgb(107, 161, 26);
     color: rgb(255, 255, 255);
-    margin-top: 1px;
     padding: 0 40px;
   display: flex;
   flex-direction: row;
@@ -17,8 +17,8 @@
   height:11vh;
   z-index: 3;
   position: fixed;
-  background: none;
   border-bottom: 2px solid black ;
+  
 }
 .Logo > img{
     height: 7vh;
@@ -27,6 +27,7 @@
 .Logo{
     font-size: x-small;
     align-items: center;
+    cursor: pointer;
 }
 .rightSide{
     width: 70vw;
@@ -37,16 +38,25 @@
 .Q1{
     text-align:center ;
     height: 11vh;
-    padding-top: 20px;
-    background-color:greenyellow;
-    
+    position: absolute;
+    left: 40%;
+    padding-top: 10px;
+    font-family: 'Mukta', sans-serif;
+    font-size: large;
 }
 .Q2{
     text-align:center ;
     height: 11vh;
-    padding-top: 20px;
+    padding-top: 15px;
     background-color:grey;
     color: white;
+    margin-top: -4px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-family: 'Mukta', sans-serif;
+}
+.gbImg{
+    padding-top: 82px;
 }
 .gbImg > img{
     height: 100vh;
@@ -58,10 +68,15 @@
     height:fit-content;
     width: 30%;
     position: absolute;
-    bottom: 296px;
-    left: 20px;
+    bottom: 299px;
+    left: 70px;
     padding: 5px;
     font-family: 'Mukta', sans-serif;
+    cursor: pointer;
+}
+.textbox:hover{
+    box-shadow: 10px 10px 42px 3px rgba(0, 0, 0, 0.42);
+    transition: 0.3s;
 }
 #home{
     margin-right: 25px;
@@ -87,6 +102,7 @@
     top: 159%;
     font-family: 'Mukta', sans-serif;
     padding: 5px;
+    cursor: pointer;
 }
 .textbox1:hover{
    box-shadow: 10px 10px 42px 3px rgba(0, 0, 0, 0.42);
@@ -117,3 +133,111 @@ content: "Hello,"
 .hello{
 padding-top: 25px ;   
 }
+.FossilFuels{
+    width: 97vw;
+    height: 100vh;
+    position: relative;
+    padding-top: 25vh;
+    display: flex;
+}
+.deforestation{
+    width: 97vw;
+    height: 100vh;
+    position: relative;
+    padding-top: 25vh;
+    display: flex;
+    margin-top: -20vh ;
+}
+.farminglivestock{
+    width: 97vw;
+    height: 100vh;
+    position: relative;
+    padding-top: 25vh;
+    display: flex;
+    margin-top: -20vh ;
+}
+.ffImg > img{
+    height: 65vh;
+    object-fit: cover;
+    
+}
+.ffInfo{
+    width: 45vw;
+    padding-top: 14vh;
+}
+.info{
+    font-size: large;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+
+}
+.why{
+    display: flex;
+    flex-flow: column;
+}
+.dfImg > img{
+    height: 65vh;
+    object-fit: cover;
+    
+}
+.dfInfo{
+    width: 45vw;
+    padding-top: 14vh;
+    margin-left: 3vw;
+}
+.flImg > img{
+    height: 65vh;
+    object-fit: cover;
+    width: 29vw;
+    
+}
+.flInfo{
+    width: 45vw;
+    padding-top: 14vh;
+    margin-left: 3vw;
+}
+.Etext{
+    background-color: rgb(166, 167, 164);
+    width: 100%;
+    font-family: 'Mukta', sans-serif;
+    padding-left: 10vw;
+    color: white;
+    font-size: xx-large;
+}
+.Epages{
+    margin-top: 5vh;
+    margin-left: 5vw;
+    display: flex;
+    justify-content: space-around;
+}
+.Ep1Img > img{
+    width: 20vw;
+    height: auto;
+}
+.Epage1:hover,.Epage2:hover,.Epage3:hover,.Epage4:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+}
+.Epage1, .Epage2, .Epage3, .Epage4{
+    cursor: pointer;
+}
+.EpInfo{
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+}
+.footer{
+    background-color: rgb(40, 2, 40);
+    height: 30vh;
+    width: 100%;
+}
+.copyright{
+    padding-top: 25vh ;
+    font-family: 'Mukta', sans-serif;
+    opacity: 0.5;
+    color: white;
+    text-align: center;
+    
+}
+
